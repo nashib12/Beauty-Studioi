@@ -42,7 +42,7 @@ const Contact = () => {
                         </div>
                        </div>
                        <div className='md:col-span-2'>
-                            <button className='text-white uppercase bg-[#663A30] hover:bg-[#663A30]/90 cursor-pointer h-12 w-full text-sm'>Submit Button</button>
+                            <button className='text-white uppercase bg-[#663A30] hover:bg-[#663A30]/90 cursor-pointer h-12 w-full text-sm' type='submit'>Send Message</button>
                        </div>
                     </form>
                 </div>
