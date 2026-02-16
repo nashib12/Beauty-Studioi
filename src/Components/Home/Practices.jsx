@@ -15,7 +15,7 @@ const Practices = () => {
                 <div className='flex flex-col gap-4'>
                   <span className='uppercase'>The Best Beauty Rituals</span>
                   <h2 className='text-3xl md:text-6xl md:leading-16'>We care for the perfectionist in you.</h2>
-                  <p className='text-sm md:text-md'>Anim ullamco et pariatur quis amet occaecat laboris. Anim ullamco et pariatur quis amet occaecat laboris.</p>
+                  <p className=''>Anim ullamco et pariatur quis amet occaecat laboris. Anim ullamco et pariatur quis amet occaecat laboris.</p>
                   <ul className='flex flex-col gap-4'>
                     <li className='flex items-start gap-4'><img src={CheckboxImg} alt='checkbox' className='h-10 w-10 object-contain shrink-0' /><div><h3 className='text-[#663a30] text-2xl md:text-3xl mb-3 '>Hygiene and Safety</h3><p className='text-justify '>Occaecat laborum quis sint ut eiusmod eu adipisicing do. Incididunt nisi mollit ipsum ea eiusmod duis sint velit aliqua nisi sint aliquip pariatur. Aute commodo laboris sint ullamco consequat officia dolore irure sit sint tempor sunt.</p></div></li>
                     <li className='flex items-start gap-4'><img src={CheckboxImg} alt='checkbox' className='h-10 w-10 object-contain shrink-0' /><div><h3 className='text-[#663a30] text-2xl md:text-3xl mb-3 '>Professional Services</h3><p className='text-justify '>Occaecat laborum quis sint ut eiusmod eu adipisicing do. Incididunt nisi mollit ipsum ea eiusmod duis sint velit aliqua nisi sint aliquip pariatur. Aute commodo laboris sint ullamco consequat officia dolore irure sit sint tempor sunt.</p></div></li>

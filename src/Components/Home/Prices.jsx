@@ -14,7 +14,7 @@ const Prices = () => {
                             <h2 className='text-5xl md:text-7xl italic '>12+</h2>
                             <div className='flex flex-col gap-2'>
                                 <h2 className='text-3xl leading-10'>Years Experience</h2>
-                                <p className='text-sm md:text-md'>Sunt laborum culpa veniam nostrud laborum velit tempor aute sint.</p>
+                                <p>Sunt laborum culpa veniam nostrud laborum velit tempor aute sint.</p>
                             </div>
                         </div>
                     </div>
@@ -22,11 +22,11 @@ const Prices = () => {
                         <span className='uppercase'>Treatment & Prices</span>
                         <h2 className='text-3xl md:text-5xl md:leading-14 mb-6'>Because Being Beautiful Should Never Harm You</h2>
                         <ul className='flex flex-col gap-6'>
-                            <li className='flex items-center justify-between'><div><p className='text-2xl'>Face Treatments</p><p className='text-sm mt-1'>There are many variations of passages</p></div><h3 className='text-3xl'>$50</h3></li>
-                            <li className='flex items-center justify-between'><div><p className='text-2xl'>Facial & Massage</p><p className='text-sm mt-1'>There are many variations of passages</p></div><h3 className='text-3xl'>$50</h3></li>
-                            <li className='flex items-center justify-between'><div><p className='text-2xl'>Hair Treatment</p><p className='text-sm mt-1'>There are many variations of passages</p></div><h3 className='text-3xl'>$50</h3></li>
-                            <li className='flex items-center justify-between'><div><p className='text-2xl'>Manicure & Pedicure</p><p className='text-sm mt-1'>There are many variations of passages</p></div><h3 className='text-3xl'>$50</h3></li>
-                            <li className='flex items-center justify-between'><div><p className='text-2xl'>Hand/nail Moisturizer</p><p className='text-sm mt-1'>There are many variations of passages</p></div><h3 className='text-3xl'>$50</h3></li>
+                            <li className='flex items-center justify-between'><div><p className='text-2xl'>Face Treatments</p><p className='mt-1'>There are many variations of passages</p></div><h3 className='text-3xl'>$50</h3></li>
+                            <li className='flex items-center justify-between'><div><p className='text-2xl'>Facial & Massage</p><p className='mt-1'>There are many variations of passages</p></div><h3 className='text-3xl'>$50</h3></li>
+                            <li className='flex items-center justify-between'><div><p className='text-2xl'>Hair Treatment</p><p className='mt-1'>There are many variations of passages</p></div><h3 className='text-3xl'>$50</h3></li>
+                            <li className='flex items-center justify-between'><div><p className='text-2xl'>Manicure & Pedicure</p><p className='mt-1'>There are many variations of passages</p></div><h3 className='text-3xl'>$50</h3></li>
+                            <li className='flex items-center justify-between'><div><p className='text-2xl'>Hand/nail Moisturizer</p><p className='mt-1'>There are many variations of passages</p></div><h3 className='text-3xl'>$50</h3></li>
                         </ul>
                     </div>
                 </div>

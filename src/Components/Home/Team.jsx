@@ -25,7 +25,7 @@ const Team = () => {
                     <div className='absolute inset-0 pt-8 px-8 flex flex-col gap-0'>
                         <div className='border border-white h-90 w-full ' />
                         <button className='bg-white w-full h-12'><h3 className='text-3xl text-[#663A30]'>{item.title}</h3></button>
-                        <p className='text-white text-sm my-2'>{item.post}</p>
+                        <p className='text-white my-2'>{item.post}</p>
                     </div>
                 </div>
                 ))}

@@ -23,7 +23,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-[4.1rem] md:leading-18">
             We Can Create What You Imagine.
           </h1>
-          <p className="text-sm md:text-md">
+          <p>
             Qui velit magna elit veniam. Dolore esse occaecat incididunt
             occaecat in exercitation voluptate tempor ad anim qui laborum. Nulla
             est anim incididunt Lorem dolor occaecat sunt.

@@ -22,14 +22,14 @@ const About = () => {
                   <h2 className="text-3xl md:text-[3.4rem] md:leading-14">
                     There is a kind beauty in imperfection
                   </h2>
-                  <p className="text-sm md:text-md text-justify">Magna ea officia fugiat Lorem commodo labore commodo deserunt occaecat occaecat irure dolor nulla consectetur. Amet cupidatat anim irure minim qui ea tempor velit. Consectetur amet do enim fugiat sint exercitation ad.</p>
+                  <p className="text-justify">Magna ea officia fugiat Lorem commodo labore commodo deserunt occaecat occaecat irure dolor nulla consectetur. Amet cupidatat anim irure minim qui ea tempor velit. Ullamco est dolore magna fugiat officia voluptate qui aute esse qui dolor ea nulla do.</p>
                   <button className="flex items-center justify-center h-10 w-32 text-sm bg-[#663a30] cursor-pointer transition ease-out duration-300 hover:-translate-y-2 text-white uppercase">About Us</button>
                 </div>
                 <div className="relative flex flex-col md:flex-row-reverse mt-10 md:mt-16 gap-6 md:gap-0">
                     <img src={AboutImg2} alt="Makeup" className="w-auto h-90 object-cover" />
                     <div className="md:absolute md:left-0 md:bottom-2  bg-[#663a30] text-white md:h-46 md:w-90 px-4 py-4">
                         <h3 className="text-xl md:text-2xl md:leading-14">There is a Kind of beauty.</h3>
-                        <p className="text-sm text-justify">Occaecat nostrud sint sunt aliqua nostrud. Deserunt eu occaecat sunt sunt tempor commodo adipisicing cupidatat pariatur incididunt dolore elit excepteur id. In aute sunt non dolor ex qui elit ullamco id.</p>
+                        <p className="text-justify">Occaecat nostrud sint sunt aliqua nostrud. Deserunt eu occaecat sunt sunt tempor commodo adipisicing.</p>
                     </div>
                 </div>
                </div>

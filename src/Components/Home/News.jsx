@@ -13,7 +13,7 @@ const News = () => {
                 <div>
                     <span className='uppercase text-sm'>Articles & News</span>
                     <h2 className='text-3xl md:text-6xl my-3'>Latest News </h2>
-                    <p className='text-sm'>Sunt culpa qui duis est consectetur ullamco ea officia ex enim cillum.</p>
+                    <p>Sunt culpa qui duis est consectetur ullamco ea officia ex enim cillum.</p>
                     <button className='bg-[#663A30] text-white cursor-pointer hover:bg-[#663A30]/90 transition duration-300 ease-out hover:-translate-y-2 uppercase text-sm h-12 w-36 mt-4'>More Article</button>
                 </div>
                 <div className='border border-[#663a30]/40 h-136 w-full transition ease-in-out duration-500 hover:bg-[#663a30] px-8 pt-8 overflow-hidden cursor-pointer group flex flex-col items-center justify-center'>

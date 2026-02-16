@@ -17,7 +17,7 @@ const Contact = () => {
                <div className='col-span-2 md:pr-48'>
                  <div className='flex flex-col gap-4'>
                     <h3 className='text-3xl leading:12'>Bringing the joy of creatitvity! <br />Book an appointment</h3>
-                    <p className='text-sm md:text-md'>Aliqua eiusmod culpa veniam velit ex cillum dolore minim amet dolore est.</p>
+                    <p>Aliqua eiusmod culpa veniam velit ex cillum dolore minim amet dolore est.</p>
                     <form className='mt-4 grid md:grid-cols-2 gap-8'>
                         <div className='flex flex-col gap-3 text-sm '>
                             <label htmlFor="fName" className='uppercase'> First Name *</label>
