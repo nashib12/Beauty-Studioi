@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Mamzelle-Regular";
+  src: url("/public/Fonts/cornella-Regular.otf") format(opentype);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/public/Fonts/HelveticaNeueMedium.otf") format(opentype);
+  font-display: swap;
+}
+
+:root{
+  --primary-call-to-color : #663A30;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Mamzelle-Regular", "Courier New", Courier, monospace;
+}
+
+p,
+a,
+li,
+ul,
+li,
+button,
+input,
+textarea,
+span,
+strong {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+body{
+  overflow-x: hidden !important;
+}
