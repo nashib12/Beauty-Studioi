@@ -6,7 +6,6 @@ import TwitterImg from "../../public/Images/Icons/twitter.png";
 import LinkdeinImg from "../../public/Images/Icons/linkedin.png";
 import PinterestImg from "../../public/Images/Icons/pinterest.png";
 import InstagramImg from "../../public/Images/Icons/instagram.png";
-import CopyrightImg from "../../public/Images/Icons/copyright.png";
 
 const Footer = () => {
   const [isScrolling, setIsScrolling] = useState(false);
@@ -56,14 +55,15 @@ const Footer = () => {
   };
   return (
     <>
-      <div className="bg-[#663A30] relative">
+      <footer>
+        <div className="bg-[#663A30] md:relative">
         <img
           src={BgImage}
           alt="Flower Background"
-          className="w-screen h-120 object-cover"
+          className="hidden md:block w-screen h-120 object-cover"
         />
-        <div className="absolute inset-0 bg-[#663a30]/40 h-full w-full" />
-        <div className="absolute inset-0 md:max-w-5xl mx-auto px-4 py-12 md:px-24 md:pt-24 md:pb-12 flex flex-col items-center justify-center gap-6 md:gap-8 text-white">
+        <div className="md:absolute inset-0 bg-[#663a30]/40 h-full w-full" />
+        <div className="md:absolute inset-0 md:max-w-5xl mx-auto px-4 py-12 md:px-24 md:pt-24 md:pb-12 flex flex-col items-center justify-center gap-6 md:gap-8 text-white">
           <div className="md:max-w-xl mx-auto flex flex-col items-center justify-center gap-6 md:gap-8 text-center">
             <img
               src={LogoImg}
@@ -175,21 +175,15 @@ const Footer = () => {
       </div>
       <div className="md:max-w-7xl mx-auto text-[#663a30] flex flex-col md:flex-row gap-4 items-center justify-between px-4 py-4 text-sm">
         <div className="flex flex-col md:flex-row gap-2">
-          <div className="flex gap-2 items-center justify-center md:justify-start">
-            <img
-              src={CopyrightImg}
-              alt="Copyright"
-              className="h-6 w-6 object-cover"
-            />{" "}
-            All right reserved
-            {new Date().getFullYear()}.{" "}
-          </div>
-          <p>
+          <div className="flex flex-col md:flex-row gap-2 items-center justify-center md:justify-start">
+            <span>&copy; All right reserved {new Date().getFullYear()}.{" "}</span>
+          <span>
             Crafted by -{" "}
             <a href="https://sait.com.np/" target="blank">
               S.A I.T Solutions Nepal
             </a>
-          </p>
+          </span>
+          </div>
         </div>
         <div className="flex gap-2">
           <a href="" className="cursor-pointer">
@@ -201,6 +195,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      </footer>
     </>
   );
 };

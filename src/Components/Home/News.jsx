@@ -6,7 +6,7 @@ import ServiceImg2 from '../../../public/Images/Services/servicesdailymakeup.jpg
 const News = () => {
   return (
     <>
-      <section id='experiences' className='md:py-12 mb-132 md:mb-24'>
+      <section id='experiences' className='md:py-12 mb-190 md:mb-24'>
         <div className='relative'>
             <img src={BgImage} alt="Background" className='h-screen md:h-120 w-auto object-cover' />
             <div className='absolute inset-0 md:max-w-8xl mx-auto px-6 py-12 md:px-24 text-[#663A30] grid md:grid-cols-3 gap-6'>

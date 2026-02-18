@@ -12,7 +12,7 @@ const Contact = () => {
             <span className='uppercase'>Book Appointment</span>
             <h2 className='text-3xl md:text-5xl mb-2 mt-3'>Bringing the joy of creativity!</h2>
             <h2 className='text-3xl md:text-5xl mb-6'>Book an Appointment</h2>
-            <div className='md:grid grid-cols-3 md:gap-12 md:-ml-24'>
+            <div className='md:grid grid-cols-3 md:gap-12 md:-ml-24 mt-12'>
                 <img src={ContactImg} alt="Contact Image" className='h-80 md:h-140 w-full md:w-500 object-cover mb-8' />
                <div className='col-span-2 md:pr-48'>
                  <div className='flex flex-col gap-4'>
